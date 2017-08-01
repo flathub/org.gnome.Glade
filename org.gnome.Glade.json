@@ -29,7 +29,7 @@
     "modules": [
         {
             "name": "glade",
-            "config-opts": ["--disable-man-pages"],
+            "config-opts": ["--disable-man-pages", "--disable-introspection"],
             "sources": [
                 {
                     "type": "archive",
