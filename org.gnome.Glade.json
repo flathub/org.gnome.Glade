@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Glade",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "glade",
     "rename-desktop-file": "glade.desktop",
@@ -16,10 +16,7 @@
         /* We want full fs access so we can read the files */
         "--filesystem=host",
         /* Support GL widgets */
-        "--device=dri",
-        /* Needed for dconf to work */
-        "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--device=dri"
     ],
     "cleanup": ["/include", "/lib/pkgconfig",
                 "/share/pkgconfig", "/share/aclocal",
@@ -35,7 +32,14 @@
                     "type": "archive",
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/glade/3.22/glade-3.22.1.tar.xz",
                     "sha256": "dff89a2ef2eaf000ff2a46979978d03cb9202cb04668e01d0ea5c5bb5547e39a"
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
+            ],
+            "modules": [
+                "shared-modules/intltool/intltool-0.51.json"
             ]
         },
         {
@@ -51,8 +55,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url": "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.9/libhandy-v0.0.9.tar.gz",
-                    "sha256": "a9f3c06eaa482efabc1d00dd2df65dc7d41253a71c0cb0402328a831a4f398a3"
+                    "url": "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.11/libhandy-v0.0.11.tar.gz",
+                    "sha256": "c7e7b51203d9221c50b1a38ba81e0aefb5ab906c55e85b6ca2d0501e907e077d"
                 }
             ]
         }
