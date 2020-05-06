@@ -4,9 +4,6 @@
     "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "glade",
-    "rename-desktop-file": "glade.desktop",
-    "rename-appdata-file": "glade.appdata.xml",
-    "rename-icon": "glade",
     "copy-icon": true,
     "finish-args": [
         /* X11 + XShm access */
@@ -30,12 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/glade/3.22/glade-3.22.2.tar.xz",
-                    "sha256": "edefa6eb24b4d15bd52589121dc109bc08c286157c41288deb74dd9cc3f26a21"
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
+                    "url": "https://download.gnome.org/sources/glade/3.36/glade-3.36.0.tar.xz",
+                    "sha256": "19b546b527cc46213ccfc8022d49ec57e618fe2caa9aa51db2d2862233ea6f08"
                 }
             ],
             "modules": [
