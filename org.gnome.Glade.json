@@ -11,6 +11,8 @@
         "--socket=wayland",
         /* We want full fs access so we can read the files */
         "--filesystem=host",
+        /* Allow survey to work */
+        "--share=network",
         /* Support GL widgets */
         "--device=dri"
     ],
