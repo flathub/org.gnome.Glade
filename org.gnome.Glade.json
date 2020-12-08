@@ -36,6 +36,24 @@
                     "sha256": "98fc87647d88505c97dd2f30f2db2d3e9527515b3af11694787d62a8d28fbab7"
                 }
             ]
+        },
+        {
+            "name" : "libhandy",
+            "buildsystem" : "meson",
+            "config-opts" : [
+                "-Dexamples=false",
+                "-Dglade_catalog=enabled",
+                "-Dintrospection=disabled",
+                "-Dtests=false",
+                "-Dvapi=false"
+            ],
+            "sources" : [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.2.tar.xz",
+                    "sha256": "3ad78d0594165c7e8150f662506d386552825e693aa3679744af96bd94dc1c2d"
+                }
+            ]
         }
     ]
 }
