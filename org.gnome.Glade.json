@@ -50,8 +50,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libhandy/1.0/libhandy-1.0.2.tar.xz",
-                    "sha256": "3ad78d0594165c7e8150f662506d386552825e693aa3679744af96bd94dc1c2d"
+                    "url": "https://download.gnome.org/sources/libhandy/1.4/libhandy-1.4.0.tar.xz",
+                    "sha256": "2676d51fa1fa40fdee7497d3e763fefa18b0338bffcd2ee32e7f7e633c885446"
                 }
             ]
         }
