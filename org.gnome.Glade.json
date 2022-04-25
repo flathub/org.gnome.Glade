@@ -1,12 +1,12 @@
 {
     "app-id" : "org.gnome.Glade",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "41",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "glade",
     "finish-args" : [
         "--share=ipc",
-        "--socket=x11",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--filesystem=host",
         "--share=network",
@@ -50,8 +50,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/libhandy/1.5/libhandy-1.5.91.tar.xz",
-                    "sha256": "cc761d78344e5b8d27cfa8a2463362f244c11b2b07fe974957b5c96106acd43b"
+                    "url": "https://download.gnome.org/sources/libhandy/1.6/libhandy-1.6.2.tar.xz",
+                    "sha256": "7fa89aaa87966b6d0f5f4ef4d3efdaf654e2b01ea2c7ce2bd70301d1f9f42ca3"
                 }
             ]
         }
