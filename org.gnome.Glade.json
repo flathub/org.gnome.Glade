@@ -51,7 +51,12 @@
                 {
                     "type": "archive",
                     "url": "https://download.gnome.org/sources/libhandy/1.8/libhandy-1.8.2.tar.xz",
-                    "sha256": "d11aa2cd3e570ac6d0efdba46d173147c11f45826457e924c05990bb2e0df9ad"
+                    "sha256": "d11aa2cd3e570ac6d0efdba46d173147c11f45826457e924c05990bb2e0df9ad",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "libhandy",
+                        "stable-only": true
+                    }
                 }
             ]
         }
