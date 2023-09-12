@@ -1,0 +1,13 @@
+diff --git a/data/org.gnome.Glade.appdata.xml.in b/data/org.gnome.Glade.appdata.xml.in
+index b9286a00..8da2ee5a 100644
+--- a/data/org.gnome.Glade.appdata.xml.in
++++ b/data/org.gnome.Glade.appdata.xml.in
+@@ -29,7 +29,7 @@
+   </description>
+   <screenshots>
+     <screenshot type="default">
+-      <image>https://glade.gnome.org/images/glade-main-page.png</image>
++      <image>https://web.archive.org/web/20230307214142id_/https://glade.gnome.org/images/glade-main-page.png</image>
+     </screenshot>
+   </screenshots>
+   <provides>
